@@ -1,0 +1,9 @@
+C:\Users\HuuTri148\Desktop\3DCubeNoGimbalLock\3DCube\bin\Debug\3DCubeNoGimbalLock.exe
+C:\Users\HuuTri148\Desktop\3DCubeNoGimbalLock\3DCube\bin\Debug\3DCubeNoGimbalLock.pdb
+C:\Users\HuuTri148\Desktop\3DCubeNoGimbalLock\3DCube\obj\Debug\3DCube.csprojAssemblyReference.cache
+C:\Users\HuuTri148\Desktop\3DCubeNoGimbalLock\3DCube\obj\Debug\_DCubeNoGimbalLock.FrmRender.resources
+C:\Users\HuuTri148\Desktop\3DCubeNoGimbalLock\3DCube\obj\Debug\_DCubeNoGimbalLock.Properties.Resources.resources
+C:\Users\HuuTri148\Desktop\3DCubeNoGimbalLock\3DCube\obj\Debug\3DCube.csproj.GenerateResource.cache
+C:\Users\HuuTri148\Desktop\3DCubeNoGimbalLock\3DCube\obj\Debug\3DCube.csproj.CoreCompileInputs.cache
+C:\Users\HuuTri148\Desktop\3DCubeNoGimbalLock\3DCube\obj\Debug\3DCubeNoGimbalLock.exe
+C:\Users\HuuTri148\Desktop\3DCubeNoGimbalLock\3DCube\obj\Debug\3DCubeNoGimbalLock.pdb
