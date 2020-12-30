@@ -2,6 +2,8 @@ import javax.swing.*;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.awt.image.BufferStrategy;
@@ -198,7 +200,29 @@ public class Window extends JFrame{
 
         reFreshBtn = new Button();
         reFreshBtn.setLabel("Refresh");
+        reFreshBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                rotateX.setValue(0);
+                rotateY.setValue(0);
+                rotateZ.setValue(0);
+
+                frontCB.setState(false);
+                backCB.setState(false);
+                leftCB.setState(false);
+                rightCB.setState(false);
+                bottomCB.setState(false);
+                topCB.setState(false);
+
+                cube = new Cube(200, 300, 250);
+
+                validate();
+                repaint();
+
+            }
+        });
         rotatePanel.add(reFreshBtn);
+
 
 
     }

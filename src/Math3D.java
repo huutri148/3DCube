@@ -64,8 +64,9 @@ public class Math3D {
     {
         for (int i = 0; i < points3D.size(); i++)
         {
-            Vector3D v = points3D.get(i);
-            v =  RotateX((Vector3D)points3D.get(i), degrees);
+            Vector3D v =  RotateX((Vector3D)points3D.get(i), degrees);
+            points3D.set(i, v);
+
         }
         return points3D;
     }
@@ -73,8 +74,8 @@ public class Math3D {
     {
         for (int i = 0; i < points3D.size(); i++)
         {
-            Vector3D v = points3D.get(i);
-            v =  RotateY((Vector3D)points3D.get(i), degrees);
+            Vector3D v =  RotateY((Vector3D)points3D.get(i), degrees);
+            points3D.set(i, v);
         }
         return points3D;
     }
@@ -82,8 +83,8 @@ public class Math3D {
     {
         for (int i = 0; i < points3D.size(); i++)
         {
-            Vector3D v = points3D.get(i);
-            v =  RotateZ((Vector3D)points3D.get(i), degrees);
+            Vector3D v =  RotateZ((Vector3D)points3D.get(i), degrees);
+            points3D.set(i, v);
         }
         return points3D;
     }
